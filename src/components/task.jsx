@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 class Task extends Component {
   render() {
     return (
-      <div>
-        <h3>{this.props.title}</h3>
-        <p>{this.props.description}</p>
+      <div className="task">
+        <div className="task-title">
+          <h3>{this.props.title}</h3>
+        </div>
+        <div className="task-description">
+          <p>{this.props.description}</p>
+        </div>
       </div>
     );
   }

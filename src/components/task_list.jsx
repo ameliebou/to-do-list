@@ -9,7 +9,7 @@ class TaskList extends Component {
           return (
             <Task title={task.title} description={task.description} key={index}/>
           )
-        })};
+        })}
       </div>
     );
   }
